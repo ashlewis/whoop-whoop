@@ -1,0 +1,23 @@
+@import "compass_twitter_bootstrap";
+@import "colors";
+
+.hero-unit{
+	background:#444;
+	color:#fff;
+}
+
+.height{
+	color:$red;
+}
+
+.period{
+	color:$orange;
+}
+
+.wind-speed{
+	color:$yellow;
+}
+
+.wind-direction{
+	color:$purple;
+}
