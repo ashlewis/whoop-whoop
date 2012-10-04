@@ -1,5 +1,6 @@
 @import "compass_twitter_bootstrap";
-@import "colors";
+@import "compass_twitter_bootstrap_responsive";
+
 
 .hero-unit{
 	background:#444;
@@ -7,7 +8,7 @@
 }
 
 .height{
-	color:$red;
+	color:lighten($red, 10%);
 }
 
 .period{
@@ -15,9 +16,21 @@
 }
 
 .wind-speed{
-	color:$yellow;
+	color:lighten($yellow, 10%);
 }
 
 .wind-direction{
 	color:$purple;
+}
+
+@media (min-width: 1200px) {
+	.hero-unit h1{
+		font-size:80px;
+	}
+}
+
+@media (max-width: 480px) {
+	.hero-unit h1{
+		font-size:40px;
+	}
 }
